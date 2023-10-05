@@ -13,19 +13,64 @@ body .container {
   max-width: 1100px;
 }
 
-#filter-buttons button {
-  border-radius: 3px;
-  background: #fff;
-  border-color: transparent;
-}
+        /* Hamburger Menu */
+        .hamburger-menu {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          width: 30px;
+          cursor: pointer;
+          position: fixed;
+          top: 20px;
+          right: 20px;
+          z-index: 1000;
+        }
 
-#filter-buttons button:hover {
-  background: #ddd;
-}
+        .hamburger-menu .bar {
+          width: 100%;
+          height: 4px;
+          background-color: #fff;
+        }
 
-#filter-buttons button.active {
-  color: #fff;
-  background: #6c757d;
+        /* Mobile Navigation */
+        .mobile-nav {
+          position: fixed;
+          top: 0;
+          left: -100%;
+          width: 40%;
+          height: 40%;
+          background-color: rgba(223, 213, 213);
+          transition: left 0.3s ease-in-out;
+          padding: 50px 20px;
+          box-sizing: border-box;
+          z-index: 999;
+        }
+
+        .mobile-nav button {
+          display: block;
+          width: 100%;
+          text-align: left;
+          background-color: #f7f7f7; /* This is a light gray background */
+          margin-bottom: 10px; /* This adds some space between the buttons */
+          border-radius: 5px; /* This rounds the corners of the buttons */
+          border: none; /* This removes the default border of the buttons */
+          padding: 10px; /* This adds some padding inside the buttons */
+          transition: background-color 0.3s ease; /* This adds a smooth transition effect when hovering */
+      }
+      
+      .mobile-nav button:hover {
+          background-color: #e0e0e0; /* This is a slightly darker gray for the hover effect */
+      }
+
+        /* Media Query for screens larger than 500px */
+        @media (min-width: 501px) {
+          .hamburger-menu, .mobile-nav {
+              display: none;
+          }
+        }
+
+#filter-buttons button{
+  display: none;
 }
 
 #filterable-cards {
@@ -158,4 +203,44 @@ body .container {
         width: 100%; /* This will make the card take the full width on small screens */
         margin: 0 auto; /* This will center the card */
     }
+}
+
+/* Hide filter buttons by default */
+#filter-buttons button {
+  display: none;
+}
+
+/* Display filter buttons only for screens larger than 500px */
+@media (min-width: 501px) {
+  #filter-buttons button {
+      display: inline-block; /* or you can use 'block' if you want them to take the full width */
+      border-radius: 3px;
+      background: #fff;
+      border-color: transparent;
+  }
+
+  #filter-buttons button:hover {
+      background: #ddd;
+  }
+
+  #filter-buttons button.active {
+      color: #fff;
+      background: #6c757d;
+  }
+
+  /* Hide the hamburger menu and mobile navigation */
+  .hamburger-menu, .mobile-nav {
+      display: none;
+  }
+}
+
+/* Display the hamburger menu only for screens smaller than 500px */
+@media (max-width: 500px) {
+  .hamburger-menu {
+      display: flex;
+  }
+
+  #filter-buttons button {
+      display: none; /* Hide the filter buttons */
+  }
 }

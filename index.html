@@ -13,7 +13,7 @@
 
     <div class="container">
 
-        <!-- Images Filter Buttons Section -->
+        <!-- Filters -->
         <div class="row mt-5" id="filter-buttons">
             <div class="col-12 text-center">
                 <button class="btn mb-2 me-1 active" data-filter="all">Show all</button>
@@ -22,6 +22,22 @@
                 <button class="btn mb-2 mx-1" data-filter="island">Island</button>
             </div>
         </div>
+
+        <!-- Hamburger Icon -->
+        <div class="hamburger-menu d-lg-none">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <!-- Filters inside a navigation menu -->
+        <nav class="mobile-nav d-lg-none">
+            <button class="btn mb-2 me-1 active" data-filter="all">Show all</button>
+            <button class="btn mb-2 mx-1" data-filter="mountain">Mountains</button>
+            <button class="btn mb-2 mx-1" data-filter="beach">Beach</button>
+            <button class="btn mb-2 mx-1" data-filter="island">Island</button>
+        </nav>
+
 
         <!-- Filterable Images / Cards Section -->
         <div class="row px-2 mt-4 gap-3 d-flex align-items-center justify-content-center" id="filterable-cards"></div>
