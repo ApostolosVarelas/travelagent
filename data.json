@@ -10,12 +10,15 @@
     {
         "dataName": "mountain",
         "imgSrc": "https://www.travel.gr/wp-content/uploads/2021/11/araxova_genikes-16-2048x1366.jpg",
-        "cardTitle": "Αράχωβα"
+        "cardTitle": "Αράχωβα",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
     },
     {
         "dataName": "island",
         "imgSrc": "https://www.visitgreece.gr/files/merakos_01_kefalonia-assos_1310x769.jpg",
-        "cardTitle": "Κεφαλονία",
+        "cardTitle": "Κεφαλονιά",
         "priceTop": 200,
         "priceLow": 20,
         "available": 1000
