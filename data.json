@@ -2,7 +2,10 @@
     {
         "dataName": "mountain",
         "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Kalavrita.jpg",
-        "cardTitle": "Καλάβρυτα"
+        "cardTitle": "Καλάβρυτα",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
     },
     {
         "dataName": "mountain",
@@ -12,41 +15,65 @@
     {
         "dataName": "island",
         "imgSrc": "https://www.visitgreece.gr/files/merakos_01_kefalonia-assos_1310x769.jpg",
-        "cardTitle": "Κεφαλονία"
+        "cardTitle": "Κεφαλονία",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
     },
     {
         "dataName": "beach",
         "imgSrc": "https://web-greece.gr/wp-content/uploads/2016/05/loutraki_beach_peloponnese1.jpg",
-        "cardTitle": "Λουτράκι"
+        "cardTitle": "Λουτράκι",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
     },
     {
         "dataName": "island",
         "imgSrc": "https://naxostimes.gr/wp-content/uploads/2022/05/paralia_limani_naxos_drone_above-1.jpg",
-        "cardTitle": "Νάξος"
+        "cardTitle": "Νάξος",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
     },
     {
         "dataName": "beach",
         "imgSrc": "https://web-greece.gr/wp-content/uploads/2018/03/xylokastro-1024x576.jpg",
-        "cardTitle": "Ξυλόκαστρο"
+        "cardTitle": "Ξυλόκαστρο",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
     },
     {
         "dataName": "island",
         "imgSrc": "https://thevictorialefkada.gr/wp-content/uploads/2020/07/The-Victoria-Lefkada-Town.jpg",
-        "cardTitle": "Λευκάδα"
+        "cardTitle": "Λευκάδα",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
     },
     {
         "dataName": "mountain",
         "imgSrc": "https://www.kathimerini.gr/wp-content/uploads/2022/07/shutterstock_2078128354.jpg",
-        "cardTitle": "Πήλιο"
+        "cardTitle": "Πήλιο",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
     },
     {
         "dataName": "island",
         "imgSrc": "https://exploringgreece.tv/wp-content/uploads/2023/03/kriti-cheimona-5-2-pragmata-poy-mporeis-na-apolayseis-kalytera-1140x570.jpg",
-        "cardTitle": "Κρήτη"
+        "cardTitle": "Κρήτη",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
     },
     {
         "dataName": "island",
         "imgSrc": "https://www.loveradio.gr/images/2020/06/15/ZAKYNTHOSKENTRIKI.jpg",
-        "cardTitle": "Ζακυνθος"
+        "cardTitle": "Ζακυνθος",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
     }
 ]

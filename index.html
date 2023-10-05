@@ -2,33 +2,53 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8" />
-  <title>Travel Agent</title>
-  <link rel="stylesheet" href="styles.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+    <meta charset="utf-8" />
+    <title>Travel Agent</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
 </head>
 
 <body>
-  
-    <script src="script.js" defer></script>
 
     <div class="container">
-    
-    <!-- Images Filter Buttons Section -->
-    <div class="row mt-5" id="filter-buttons">
-      <div class="col-12 text-center">
-        <button class="btn mb-2 me-1 active" data-filter="all">Show all</button>
-        <button class="btn mb-2 mx-1" data-filter="mountain">Mountains</button>
-        <button class="btn mb-2 mx-1" data-filter="beach">Beach</button>
-        <button class="btn mb-2 mx-1" data-filter="island">Island</button>
-      </div>
+
+        <!-- Images Filter Buttons Section -->
+        <div class="row mt-5" id="filter-buttons">
+            <div class="col-12 text-center">
+                <button class="btn mb-2 me-1 active" data-filter="all">Show all</button>
+                <button class="btn mb-2 mx-1" data-filter="mountain">Mountains</button>
+                <button class="btn mb-2 mx-1" data-filter="beach">Beach</button>
+                <button class="btn mb-2 mx-1" data-filter="island">Island</button>
+            </div>
+        </div>
+
+        <!-- Filterable Images / Cards Section -->
+        <div class="row px-2 mt-4 gap-3 d-flex align-items-center justify-content-center" id="filterable-cards"></div>
     </div>
 
-    <!-- Filterable Images / Cards Section -->
-    <div class="row px-2 mt-4 gap-3 d-flex align-items-center justify-content-center" id="filterable-cards">     
+    <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img id="modal-img" src="" alt="Image" class="img-fluid mb-3">
+                    <p id="modal-priceRange"></p>
+                    <p id="modal-priceTop"></p>
+                    <p id="modal-priceLow"></p>
+                    <p id="modal-available"></p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
+
+    <!-- Load scripts at the end of the body -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js" defer></script>
+
 </body>
 
 </html>

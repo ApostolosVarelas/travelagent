@@ -81,6 +81,22 @@ function generateCards(data) {
        card.appendChild(img);
        card.appendChild(cardBody);
        cardContainer.appendChild(card);
+
+       img.addEventListener('click', function() {
+        document.getElementById('modal-img').src = item.imgSrc;
+        document.getElementById('modal-title').textContent = item.cardTitle;
+
+        // Display Price Range with icons and labels
+        const priceTop = item.priceTop || 'N/A';
+        const priceLow = item.priceLow || 'N/A';
+        document.getElementById('modal-priceRange').innerHTML = `<i class="fas fa-tags"></i><span class="label">Price Range:</span> <span class="value">${priceLow} - ${priceTop}</span>`;
+
+        // Display Availability with icons and labels
+        document.getElementById('modal-available').innerHTML = `<i class="fas fa-check-circle"></i><span class="label">Available:</span> <span class="value">${item.available || 'N/A'}</span>`;
+
+        
+        new bootstrap.Modal(document.getElementById('infoModal')).show();
+        });
    });
 }
 

@@ -81,6 +81,62 @@ body .container {
   }
 }
 
+/*Smaller Cards*/
+.modal-content {
+  border-radius: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Style for the modal title */
+#modal-title {
+  background-color: #f0f0f0; /* Grey background */
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+#modal-img {
+  min-height: 200px;
+  width: 100%; /* Ensures the image takes the full width of the modal */
+  object-fit: cover; /* Ensures the image covers the space without distortion */
+}
+
+/* Style for the modal body content */
+.modal-body {
+  font-size: 16px;
+}
+
+#modal-priceTop, #modal-priceLow {
+  display: none; /* Initially hide individual prices */
+}
+
+#modal-priceRange {
+  margin-bottom: 10px;
+}
+
+/* Typography Enhancements */
+.modal-body p {
+  font-size: 18px; /* Slightly larger font size */
+  margin-bottom: 15px; /* Increased spacing between elements */
+}
+
+.modal-body p span.label {
+  font-weight: 600; /* Bold font weight for labels */
+  color: #555; /* Darker color for labels */
+  margin-right: 10px; /* Spacing between label and value */
+}
+
+.modal-body p span.value {
+  font-weight: 400; /* Regular font weight for values */
+  color: #333; /* Dark color for values */
+}
+
+/* Icons (assuming you're using Font Awesome or similar) */
+.modal-body p i {
+  margin-right: 5px; /* Spacing between icon and text */
+}
+
+
+
 #filterable-cards .card.slide {
   animation: slideIn 0.5s forwards;
 }
