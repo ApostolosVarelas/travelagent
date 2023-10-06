@@ -7,7 +7,15 @@ document.addEventListener('DOMContentLoaded', function() {
         // Define filterButtons and cards
         const filterButtons = document.querySelectorAll('#filter-buttons button, .mobile-nav button');
         const cards = document.querySelectorAll('#filterable-cards .card');
- 
+        const mobileNavButtons = document.querySelectorAll('.mobile-nav button');
+
+        mobileNavButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                mobileNav.style.left = "-100%";
+            });
+        });
+
+
          // Filter functionality
          filterButtons.forEach(button => {
              button.addEventListener('click', function() {
@@ -115,7 +123,6 @@ document.addEventListener('DOMContentLoaded', function() {
   
          // Add event listeners for both click and touchstart
          img.addEventListener('click', boundShowModal);
-         img.addEventListener('touchstart', boundShowModal);
      });
   }
   

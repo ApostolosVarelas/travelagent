@@ -7,10 +7,12 @@
 
 body {
   background: #9aa099 !important;
+  padding-bottom: 50px;
 }
 
 body .container {
   max-width: 1100px;
+  margin-bottom: 50px;
 }
 
         /* Hamburger Menu */
