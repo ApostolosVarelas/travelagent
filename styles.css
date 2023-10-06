@@ -71,6 +71,17 @@ body .container {
           }
         }
 
+.page-title {
+  font-size: 2.5rem; /* Size of the text */
+  font-weight: bold; /* Make the text bold */
+  text-align: center; /* Center the text */
+  margin: 30px 0; /* Add some space above and below the title */
+  color: #333; /* Color of the text */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); /* Optional: Slight shadow to the text for depth */
+  letter-spacing: 1px; /* Space between letters */
+}
+      
+
 #filter-buttons button{
   display: none;
 }
@@ -205,6 +216,10 @@ body .container {
         width: 100%; /* This will make the card take the full width on small screens */
         margin: 0 auto; /* This will center the card */
     }
+    .page-title {
+      font-size: 2rem;
+      margin: 20px 0;
+  }
 }
 
 /* Hide filter buttons by default */
