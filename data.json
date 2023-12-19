@@ -1,0 +1,82 @@
+[
+    {
+        "dataName": "mountain",
+        "imgSrc": "Images/Kalavrita.png",
+        "cardTitle": "Καλάβρυτα",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
+    },
+    {
+        "dataName": "mountain",
+        "imgSrc": "Images/araxova.png",
+        "cardTitle": "Αράχωβα",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
+    },
+    {
+        "dataName": "island",
+        "imgSrc": "Images/Kefalonia.png",
+        "cardTitle": "Κεφαλονιά",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
+    },
+    {
+        "dataName": "beach",
+        "imgSrc": "Images/loutraki.png",
+        "cardTitle": "Λουτράκι",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
+    },
+    {
+        "dataName": "island",
+        "imgSrc": "Images/Naxos.png",
+        "cardTitle": "Νάξος",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
+    },
+    {
+        "dataName": "beach",
+        "imgSrc": "Images/xylokastro.png",
+        "cardTitle": "Ξυλόκαστρο",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
+    },
+    {
+        "dataName": "island",
+        "imgSrc": "Images/leukada.png",
+        "cardTitle": "Λευκάδα",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
+    },
+    {
+        "dataName": "mountain",
+        "imgSrc": "Images/Phlio.png",
+        "cardTitle": "Πήλιο",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
+    },
+    {
+        "dataName": "island",
+        "imgSrc": "Images/krhth.png",
+        "cardTitle": "Κρήτη",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
+    },
+    {
+        "dataName": "island",
+        "imgSrc": "Images/Zakinthos.png",
+        "cardTitle": "Ζακυνθος",
+        "priceTop": 200,
+        "priceLow": 20,
+        "available": 1000
+    }
+]
